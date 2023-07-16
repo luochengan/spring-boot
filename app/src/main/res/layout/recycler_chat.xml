@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/shapetypical"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="203dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="73dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/texttalk"
+        android:layout_width="203dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="0dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/iconm"
+        android:layout_width="61dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        app:srcCompat="@drawable/lianxiren" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/line" />
+</RelativeLayout>

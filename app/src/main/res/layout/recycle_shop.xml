@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape4"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/shop_dianpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="宝宝馋了旗舰店 >"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/shop_checked"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/shop_gecimage"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ad1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/shop_gwcname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="20sp"
+                android:text="郑州销量过百 正品保证 宝宝馋了溶豆豆婴儿无添加剂"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/shop_gwcprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="¥32.9"
+                    android:textColor="#FFA500"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/shop_gwcsub"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="21dp"
+                    android:background="@drawable/shapecontact"
+                    android:src="@drawable/sub" />
+
+                <TextView
+                    android:id="@+id/shop_gwcnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toRightOf="@+id/shop_gwcsub"
+                    android:text="10"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/shop_gwcadd"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_toRightOf="@+id/shop_gwcnum"
+                    android:background="@drawable/shapecontact"
+                    android:src="@drawable/add" />
+
+                <ImageView
+                    android:id="@+id/shop_gwcdel"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="185dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/delete" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

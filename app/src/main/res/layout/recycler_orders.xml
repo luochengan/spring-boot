@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/shapecontact"
+    android:layout_margin="10dp"
+    android:layout_height="190dp">
+
+    <ImageView
+        android:id="@+id/ivicon"
+        android:layout_width="129dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/ad1" />
+
+    <TextView
+        android:id="@+id/tvshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:gravity="center"
+        android:text="宝宝馋了旗舰店"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/shape3"
+        android:gravity="center"
+        android:text="天猫"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="13dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="trtgagsfdgasdfasdfas"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="122dp"
+        android:gravity="center"
+        android:text="下单立享95折优惠" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/tvnumber"
+        android:gravity="center"
+        android:text="x"
+        android:textColor="#FB8C00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="36dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="0"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@+id/textView13"
+        android:gravity="center"
+        android:textColor="#FB8C00"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvxiaoji"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/tvnumber"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="0.0"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+</RelativeLayout>

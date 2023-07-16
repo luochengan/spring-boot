@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#D6D7D7"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_home"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/taobao" />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="淘宝"
+            android:clickable="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weitao"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_weitao"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/weitao" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="微淘"
+            android:textColor="#000000"
+            android:clickable="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_message"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/xiaoxi" />
+        <TextView
+            android:id="@+id/textView_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="消息"
+            android:textColor="#000000"
+            android:clickable="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/shop"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_shop"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/gouwuche" />
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="购物车"
+            android:textColor="#000000"
+            android:clickable="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_me"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/me" />
+        <TextView
+            android:id="@+id/textView_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="我的"
+            android:textColor="#000000"
+            android:clickable="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
